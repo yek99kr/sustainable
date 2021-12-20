@@ -35,8 +35,6 @@
 }
 
 .swiper-slide {
-  position: relative;
-  top: -1%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
