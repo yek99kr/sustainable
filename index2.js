@@ -177,7 +177,7 @@ if (window.innerWidth <= 700) {
     // let clientX = e.clientX || e.pageX;
     // let clientY = e.clientY || e.pageY;
 
-    if (garbages.length > 220) {
+    if (garbages.length > 260) {
       return;
     }
 
@@ -186,23 +186,23 @@ if (window.innerWidth <= 700) {
     switch (garbages.length) {
       case 60:
         Body.scale(earth, 0.7, 0.7);
-        earth.render.sprite.xScale = 0.52;
-        earth.render.sprite.yScale = 0.52;
+        earth.render.sprite.xScale = 0.54;
+        earth.render.sprite.yScale = 0.54;
         break;
 
-      case 110:
+      case 120:
         Body.scale(earth, 0.6, 0.6);
         earth.render.sprite.xScale = 0.35;
         earth.render.sprite.yScale = 0.35;
         break;
 
-      case 140:
+      case 180:
         Body.scale(earth, 0.5, 0.5);
         earth.render.sprite.xScale = 0.19;
         earth.render.sprite.yScale = 0.19;
         break;
 
-      case 220:
+      case 260:
         earth.position.x = -1000;
         earth.position.y = -1000;
 
