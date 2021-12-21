@@ -186,8 +186,8 @@ if (window.innerWidth <= 700) {
     switch (garbages.length) {
       case 50:
         Body.scale(earth, 0.7, 0.7);
-        earth.render.sprite.xScale = 0.5;
-        earth.render.sprite.yScale = 0.5;
+        earth.render.sprite.xScale = 0.52;
+        earth.render.sprite.yScale = 0.52;
         break;
 
       case 100:
