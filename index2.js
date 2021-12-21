@@ -167,8 +167,8 @@ if (window.innerWidth <= 700) {
   //   freeMode: true,
   // });
   Body.scale(earth, 0.78, 0.78);
-  earth.render.sprite.xScale = 0.7;
-  earth.render.sprite.yScale = 0.7;
+  earth.render.sprite.xScale = 0.72;
+  earth.render.sprite.yScale = 0.72;
 
   canvas.addEventListener("touchmove", function (e) {
     e.preventDefault();
