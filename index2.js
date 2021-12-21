@@ -198,8 +198,8 @@ if (window.innerWidth <= 700) {
 
       case 150:
         Body.scale(earth, 0.5, 0.5);
-        earth.render.sprite.xScale = 0.14;
-        earth.render.sprite.yScale = 0.14;
+        earth.render.sprite.xScale = 0.19;
+        earth.render.sprite.yScale = 0.19;
         break;
 
       case 200:
